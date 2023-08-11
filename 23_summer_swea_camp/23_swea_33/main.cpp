@@ -129,8 +129,11 @@ static int run(int answer)
 		case GETCOUNT:
 			scanf("%d %d", &param1, &param2);
 			ret = getCount(param1);
-			if (ret != param2)
+			if (ret != param2) {
+				printf("\n\nGETCOUNT, param1 : %d, ans : %d, res : %d\n\n", \
+								param1, param2, ret);
 				answer = 0;
+			}
 			break;
 		case DELETEMAIL:
 			if (sample == 1) {
@@ -141,21 +144,30 @@ static int run(int answer)
 					if (str[k] == '_') str[k] = ' ';
 				}
 				ret = deleteMail(param1, str);
-				if (ret != param2)
+				if (ret != param2) {
+					printf("\n\nDELETE, param1 : %d, str : %s, ans : %d, res : %d\n\n", \
+									param1, str, param2, ret);
 					answer = 0;
+				}
 			}
 			else {
 				scanf("%d %d %d", &param1, &seed, &param2);
 				ret = delete_mail(param1, seed);
-				if (ret != param2)
+				if (ret != param2) {
+					printf("\n\nDELETE, param1 : %d, seed : %d, ans : %d, res : %d\n\n", \
+									param1, seed, param2, ret);
 					answer = 0;
+				}
 			}
 			break;
 		case SEARCHMAIL:
 			scanf("%d %s %d", &param1, str, &param2);
 			ret = searchMail(param1, str);
-			if (ret != param2)
+			if (ret != param2) {
+					printf("\n\nSEARCH, param1 : %d, str : %s, ans : %d, res : %d\n\n", \
+									param1, str, param2, ret);
 				answer = 0;
+			}
 			break;
 		default:
 			break;
@@ -168,6 +180,7 @@ static int run(int answer)
 int main()
 {
 	setbuf(stdout, NULL);
+	freopen("temp_in", "r", stdin);
 	//freopen("sample_input.txt", "r", stdin);
 
 	int T, Mark;

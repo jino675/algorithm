@@ -481,28 +481,26 @@ sample_input.txt
 출력
 #1 100	//첫번째 테스트 케이스 결과
 */
-#include <map>
+#include <iostream>
+#include <climits>
+#include <string>
+#include <cstring>
+#include <list>
+#include <unordered_map>
 
 using namespace std;
 
 typedef struct s_mail
 {
-	char	*word[10];
-	int		hash_vah[10];
+	char	*word_list[10];
 	int		word_cnt;
 }	t_mail;
 
 typedef struct s_user
 {
-	map<int, t_mail *>	mail_box;
-	int					mail_cnt;
+	list<pair<int, t_mail *>>	mail_box;
+	int	mail_cnt;
 }	t_user;
-
-typedef struct s_hash
-{
-	char			*word;
-	struct s_hash	*next;
-}	t_hash;
 
 char	word_pool[10000][11];
 int		word_pool_cnt;
@@ -512,75 +510,149 @@ int		mail_pool_cnt;
 
 t_user	user_pool[1000];
 
-int		user_idx[1000];
-int		user_cnt;
+unordered_map<string, char *>	word_table;
 
-t_hash	hash_pool[10000];
-int		hash_pool_cnt;
-
-t_hash	hash_table[50000];
-
-
-int	n;
+int	user_cnt;
 int	k;
 
-int	my_hash(char *str)
+void	init(int N, int K)
 {
-	int	res;
-	int	p_i;
-	
-	res = 0;
+	word_pool_cnt = 0;
+	mail_pool_cnt = 0;
+	for (int i = 0; i < user_cnt; ++i) {
+		user_pool[i].mail_box.clear();
+		user_pool[i].mail_cnt = 0;
+	}
+	word_table.clear();
+	user_cnt = N;
+	k = K;
+}
+
+int	temp_cnt;
+
+void	sendMail(char subject[], int uID, int cnt, int rIDs[])
+{
+	int		start, mail_hash, p_i;
+	char	*cur_word;
+	t_mail	*new_mail;
+
+	new_mail = &mail_pool[mail_pool_cnt++];
+	new_mail->word_cnt = 0;
+	mail_hash = 0;
 	p_i = 1;
-	for (int i = 0; str[i] != '\0'; ++i) {
-		res = (res * p_i) % 50000;
-		p_i = (p_i * 26) % 50000;
+	start = 0;
+	for (int i = 0; ; ++i) {
+		mail_hash = ((long long)mail_hash + (long long)subject[i] * p_i) % INT_MAX;
+		p_i = ((long long)p_i * 26) % INT_MAX;
+		if (subject[i] == ' ' || subject[i] == '\0') {
+			string	temp(subject + start, subject + i);
+			auto	iter = word_table.find(temp);
+			if (iter == word_table.end()) {
+				cur_word = word_pool[word_pool_cnt++];
+				strncpy(cur_word, &subject[start], i - start);
+				cur_word[i - start] = '\0';
+				word_table[temp] = cur_word;
+			}
+			else
+				cur_word = (*iter).second;
+			start = i + 1;
+			new_mail->word_list[new_mail->word_cnt++] = cur_word;
+			if (subject[i] == '\0')
+				break ;
+		}
+	}	//메일 생성 완료
+	for (int i = 0; i < cnt; ++i) {
+		user_pool[rIDs[i]].mail_box.push_back({mail_hash, new_mail});
+		++user_pool[rIDs[i]].mail_cnt;
+		if (user_pool[rIDs[i]].mail_cnt > k) {
+			user_pool[rIDs[i]].mail_box.pop_front();
+			--user_pool[rIDs[i]].mail_cnt;
+		}
+	}	//전송 완료
+	// printf("%d : %s\n", ++temp_cnt, subject);
+}
+
+int	getCount(int uID)
+{
+	return (user_pool[uID].mail_cnt);
+}
+
+int	is_same_mail(t_mail *cur_mail, char subject[])
+{
+	char	*cur_word;
+	int		cur_idx;
+
+	cur_idx = 0;
+	for (int i = 0; i < cur_mail->word_cnt; ++i) {
+		cur_word = cur_mail->word_list[i];
+		for (int i = 0; cur_word[i] != '\0'; ++i) {
+			if (cur_word[i] != subject[cur_idx])
+				return (0);
+			++cur_idx;
+		}
+		if (subject[cur_idx] != ' ' && subject[cur_idx] != '\0')
+			return (0);
+		else if (i != cur_mail->word_cnt - 1 && subject[cur_idx] == '\0')
+			return (0);
+		else if (i == cur_mail->word_cnt - 1 && subject[cur_idx] != '\0')
+			return (0);
+		++cur_idx;
+	}
+	return (1);
+}
+
+int	deleteMail(int uID, char subject[]) {
+
+	int	mail_hash, p_i, res;
+
+	res = 0;
+	mail_hash = 0;
+	p_i = 1;
+	for (int i = 0; ; ++i) {
+		mail_hash = ((long long)mail_hash + (long long)subject[i] * p_i) % INT_MAX;
+		p_i = ((long long)p_i * 26) % INT_MAX;
+		if (subject[i] == '\0')
+			break ;
+	}
+	auto iter = user_pool[uID].mail_box.begin();
+	while (iter != user_pool[uID].mail_box.end()) {
+		if ((*iter).first == mail_hash && is_same_mail((*iter).second, subject) == 1) {
+				iter = user_pool[uID].mail_box.erase(iter);
+				--user_pool[uID].mail_cnt;
+				++res;
+		}
+		else
+			++iter;
 	}
 	return (res);
 }
 
-int	find_value()
-
-void	init(int N, int K)
+int	searchMail(int uID, char text[])
 {
-	n = N;
-	k = K;
-	word_pool_cnt = 0;
-	mail_pool_cnt = 0;
-	while (--user_cnt >= 0) {
-		user_pool[user_cnt].mail_box.clear();
-		user_pool[user_cnt].mail_cnt = 0;
-	}
-	hash_pool_cnt = 0;
-	memset(hash_table, 0, sizeof(t_hash) * 50000);
-}
+	int		res;
+	char	*src_word;
+	t_mail	*cur_mail;
 
-void	sendMail(char subject[], int uID, int cnt, int rIDs[])
-{
-	t_hash	*ptr;
-	char	*cur_word;
-	int		start;
-	int		len;
-	int		hash_idx;
-
-	start = 0;
-	for (int i = 0; ; ++i) {
-		if (subject[i] == ' ' || subject[i] == '\0') {
-			cur_word = word_pool[word_pool_cnt++];
-			len = i - start;
-			strncpy(cur_word, &subject[start] len);
-			cur_word[len] = '\0';
-			hash_idx = my_hash(cur_word);
-			ptr = hash_table[hash_idx].next;
-			while (ptr != NULL) {
-				if (strcmp(ptr->word, cur_word) == 0)
-					
-				ptr = hash_table[hash_idx].next;
-			}
-
-
-			if (subject[i] == '\0')
+	res = 0;
+	auto	iter = word_table.find((string)text);
+	if (iter == word_table.end())
+		return (0);
+	else
+		src_word = (*iter).second;
+	// src_word = word_table[(string)text]; // 극도로 위험!
+	auto iter_mail = user_pool[uID].mail_box.begin();
+	while (iter_mail != user_pool[uID].mail_box.end()) {
+		cur_mail = (*iter_mail).second;
+		// printf("cur_mail =");
+		for (int i = 0; i < cur_mail->word_cnt; ++i) {
+			// printf(" %s", cur_mail->word_list[i]);
+			if (src_word == cur_mail->word_list[i]) {
+				++res;
 				break ;
-			start = i + 1;
+			}
 		}
+		// printf("\n");
+		++iter_mail;
 	}
+	return (res);
 }

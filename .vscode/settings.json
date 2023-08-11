@@ -1,0 +1,18 @@
+{
+	"files.associations": {
+		"ios": "cpp",
+		"iosfwd": "cpp",
+		"unordered_set": "cpp",
+		"list": "cpp",
+		"deque": "cpp",
+		"functional": "cpp",
+		"map": "cpp",
+		"set": "cpp",
+		"string": "cpp",
+		"unordered_map": "cpp",
+		"vector": "cpp",
+		"__locale": "cpp",
+		"queue": "cpp",
+		"stack": "cpp"
+	}
+}
