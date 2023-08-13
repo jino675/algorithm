@@ -3,6 +3,7 @@
 #endif
 
 #include <stdio.h>
+#include <unistd.h>
 
 extern void init(int n, char init_string[]);
 extern int change(char string_A[], char string_B[]);
@@ -34,7 +35,8 @@ static char string_A[4], string_B[4];
 
 int main() {
 	setbuf(stdout, NULL);
-//	freopen("sample_input.txt", "r", stdin);
+	// freopen("temp_in.txt", "r", stdin);
+	// freopen("sample_input (1).txt", "r", stdin);
 	int T;
 	scanf("%d", &T);
 	int total_score = 0;
@@ -62,6 +64,8 @@ int main() {
 			int ans;
 			scanf("%d", &ans);
 
+			// printf("CHANGE, string_A : %s, string_B : %s, ans : %d, ret : %d\n\n", string_A, string_B, ans, user_ans);
+			// sleep(1);
 			if (ans != user_ans)
 			{
 				score = 0;
@@ -79,6 +83,8 @@ int main() {
 				break;
 			}
 		}
+		// printf("RESULT\nans : %s\n ret : %s\n\n", result_string, user_ans_string);
+		// sleep(1);
 
 		total_score += score;
 		printf("#%d %d\n", TC, score);

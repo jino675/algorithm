@@ -180,7 +180,7 @@ static int run(int answer)
 int main()
 {
 	setbuf(stdout, NULL);
-	freopen("temp_in", "r", stdin);
+	// freopen("temp_in", "r", stdin);
 	//freopen("sample_input.txt", "r", stdin);
 
 	int T, Mark;

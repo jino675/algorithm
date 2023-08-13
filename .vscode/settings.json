@@ -13,6 +13,11 @@
 		"vector": "cpp",
 		"__locale": "cpp",
 		"queue": "cpp",
-		"stack": "cpp"
+		"stack": "cpp",
+		"iterator": "cpp",
+		"memory": "cpp",
+		"utility": "cpp",
+		"__hash_table": "cpp",
+		"ostream": "cpp"
 	}
 }

@@ -306,318 +306,172 @@ sample_input.txt
 #include <cstring>
 #include <list>
 
+#define HASH_MAX 17576 //26 ^ 3
+
 using namespace std;
 
-list<int> hash_table[26 * 26 * 26];
+typedef struct s_node
+{
+	int				idx;
+	struct s_node	*next;
+	struct s_node	*prev;
+}	t_node;
 
-char	*book;
-int		len;
-char	*A;
-int		A_count;
-char	*B;
-int		res;
+t_node	node_pool[50000];
+int		node_pool_cnt;
 
-int my_hash(char *str)
+typedef struct s_list
+{
+	t_node	head;
+
+	void	clear() {
+		head.next = &head;
+		head.prev = &head;
+	}
+	void	push(t_node *node) {
+		t_node	*ptr = head.next;
+		while (ptr != &head) {
+			if (node->idx <= ptr->idx)
+				break ;
+			ptr = ptr->next;
+		}
+		node->prev = ptr->prev;
+		node->next = ptr;
+		ptr->prev->next = node;
+		ptr->prev = node;
+	}
+	t_node	*erase(t_node *node) {
+		node->prev->next = node->next;
+		node->next->prev = node->prev;
+		return (node->next);
+	}
+	t_node *begin(void) {
+		return (head.next);
+	}
+	t_node *end(void) {
+		return (&head);
+	}
+	// void	print(void) {
+	// 	t_node	*ptr = head.next;
+	// 	while (ptr != &head) {
+	// 		printf("%d ", ptr->idx);
+	// 		ptr = ptr->next;
+	// 	}
+	// 	printf("\n");
+	// }
+}	t_list;
+
+typedef struct s_book
+{
+	char			c;
+	int				hash;
+	struct s_node	*ptr;
+
+}	t_book;
+
+t_list	hash_table[HASH_MAX];
+t_book	book[50000];
+int		book_len;
+
+int my_hash(char a, char b, char c)
 {
 	int	val;
-	int	p_i;
 
-	val = 0;
-	p_i = 1;
-	for (int i = 2; i >= 0; --i) {
-		// printf("c : %c\n", str[i]);
-		val += (str[i] - 'a') * p_i;
-		p_i *= 26;
-	}
-	// printf("val : %d\n", val);
+	val = (c - 'a') * 1;
+	val += (b - 'a') * 26;
+	val += (a - 'a') * 26 * 26;	
 	return (val);
 }
 
-void	make_table(void)
+int next_hash(int hash, char prev, char next)
 {
-	int	cur_idx;
-	int	pre_idx;
-	int	pre_pre_idx;
-
-	pre_idx = -1;
-	pre_pre_idx = -1;
-	for (int i = 0; i < len - 2; ++i) {
-		cur_idx = my_hash(&book[i]);
-		if ((pre_idx > 0 && cur_idx == pre_idx) || ( pre_pre_idx > 0 && cur_idx == pre_pre_idx))
-			cur_idx = -1;
-		else
-			hash_table[cur_idx].push_back(i);
-		pre_pre_idx = pre_idx;
-		pre_idx = cur_idx;
-	}
+	hash -= (prev - 'a') * 26 * 26;
+	hash *= 26;
+	hash += (next - 'a') * 1;
+	return (hash);
 }
-
-void	modify_table(int cur_book_idx)
-{
-	int					pre_pre_hash_idx;
-	int					cur_hash_idx;
-	int					new_hash_idx;
-	list<int>::iterator	cur_iter;
-	list<int>::iterator	new_iter;
-	char				cur_new[8];
-	int					pre_hash_idx[8];
-
-
-	if (cur_book_idx - 2 >= 0)
-		cur_new[0] = book[cur_book_idx - 2];
-	else
-		cur_new[0] = -1;
-	if (cur_book_idx - 1 >= 0)
-		cur_new[1] = book[cur_book_idx - 1];
-	else
-		cur_new[1] = -1;
-	cur_new[2] = B[0];
-	cur_new[3] = B[1];
-	cur_new[4] = B[2];
-	if (cur_book_idx + 3 < len)
-		cur_new[5] = book[cur_book_idx + 3];
-	else
-		cur_new[5] = -1;
-	if (cur_book_idx + 4 < len)
-		cur_new[6] = book[cur_book_idx + 4];
-	else
-		cur_new[6] = -1;
-	if (cur_book_idx + 5 < len)
-		cur_new[7] = book[cur_book_idx + 5];
-	else
-		cur_new[7] = -1;
-
-
-	if (cur_book_idx - 4 >= 0)
-		pre_hash_idx[0] = my_hash(&book[cur_book_idx - 4]);
-	else
-		pre_hash_idx[0] = -1;
-	if (cur_book_idx - 3 >= 0)
-		pre_hash_idx[1] = my_hash(&book[cur_book_idx - 3]);
-	else
-		pre_hash_idx[1] = -1;
-	if (cur_book_idx - 2 >= 0)
-		pre_hash_idx[2] = my_hash(&cur_new[0]);
-	else
-		pre_hash_idx[2] = -1;
-	if (cur_book_idx - 1 >= 0)
-		pre_hash_idx[3] = my_hash(&cur_new[1]);
-	else
-		pre_hash_idx[3] = -1;
-	pre_hash_idx[4] = my_hash(&cur_new[2]);
-	if (cur_book_idx + 3 < len)
-		pre_hash_idx[5] = my_hash(&cur_new[3]);
-	else
-		pre_hash_idx[5] = -1;
-	if (cur_book_idx + 4 < len)
-		pre_hash_idx[6] = my_hash(&cur_new[4]);
-	else
-		pre_hash_idx[6] = -1;
-	if (cur_book_idx + 5 < len)
-		pre_hash_idx[7] = my_hash(&cur_new[5]);
-	else
-		pre_hash_idx[7] = -1;
-
-
-	for (int i = -2; i <= 2; ++i) {
-		if (cur_book_idx + i < 0)
-			continue ;
-		if (cur_book_idx + i == len - 2)
-			break ;
-
-		cur_hash_idx = my_hash(&book[cur_book_idx + i]);
-		new_hash_idx = my_hash(&cur_new[2 + i]);
-		for (cur_iter = hash_table[cur_hash_idx].begin(); cur_iter != hash_table[cur_hash_idx].end(); ++cur_iter) {
-			if (*cur_iter == cur_book_idx + i) {
-				hash_table[cur_hash_idx].erase(cur_iter);
-				break ;
-			}
-		}
-		if (new_hash_idx != pre_hash_idx[2 + i] && new_hash_idx != pre_hash_idx[2 + i + 1])
-			hash_table[new_hash_idx].push_back(cur_book_idx + i);
-	}
-
-	cur_hash_idx = my_hash(&book[cur_book_idx]);
-	if (cur_book_idx + 5 < len) {
-		new_hash_idx = my_hash(&book[cur_book_idx + 3]);
-		if (cur_hash_idx != new_hash_idx) {
-			if (new_hash_idx == pre_hash_idx[5] || new_hash_idx == pre_hash_idx[6]) {
-				for (cur_iter = hash_table[new_hash_idx].begin(); cur_iter != hash_table[new_hash_idx].end(); ++cur_iter) {
-					if (*cur_iter == cur_book_idx + 3) {
-						hash_table[new_hash_idx].erase(cur_iter);
-						break ;
-					}
-				}
-			}
-		}
-	}
-	if (cur_book_idx + 6 < len) {
-		new_hash_idx = my_hash(&book[cur_book_idx + 4]);
-		if (cur_hash_idx != new_hash_idx) {
-			if (new_hash_idx == pre_hash_idx[6] || new_hash_idx == pre_hash_idx[7]) {
-				for (cur_iter = hash_table[new_hash_idx].begin(); cur_iter != hash_table[new_hash_idx].end(); ++cur_iter) {
-					if (*cur_iter == cur_book_idx + 4) {
-						hash_table[new_hash_idx].erase(cur_iter);
-						break ;
-					}
-				}
-			}
-		}
-	}
-
-	book[cur_book_idx] = B[0];
-	book[cur_book_idx + 1] = B[1];
-	book[cur_book_idx + 2] = B[2];
-}
-
-// void	find_modify(void)
-// {
-// 	int	cur_val;
-// 	int	pat_val;
-
-// 	cur_val = my_hash(book);
-// 	pat_val = my_hash(A);
-// 	for (int i = 0; i < len - 2; ++i) {
-// 		// printf("\nbook : %s, cur : %c%c%c, val : %d, pat_val : %d\n", book, book[i], book[i+1], book[i+2], cur_val, pat_val);
-// 		if (cur_val == pat_val) {
-// 			for (int j = 0; j < 3; ++j)
-// 				book[i + j] = B[j];
-// 			++res;
-// 			if (i + 5 < len) {
-// 				cur_val = my_hash(&book[i + 3]);
-// 				i += 2;
-// 			}
-// 			else
-// 				break ;
-// 		}
-// 		else {
-// 			if (i + 3 < len) {
-// 				cur_val -= (book[i] - 'a') * (26 * 26);
-// 				cur_val *= 26;
-// 				cur_val += book[i + 3] - 'a';
-// 			}
-// 		}
-// 	}
-// }
 
 void init(int N, char init_string[])
 {
-	book = init_string;
-	len = N;
-	for (int i = 0; i < 26 * 26 * 26; ++i)
+	t_node	*new_node;
+
+	node_pool_cnt = 0;
+	for (int i = 0; i < HASH_MAX; ++i)
 		hash_table[i].clear();
-	make_table();
+	for (int i = 0; i < N; ++i) {
+		book[i].c = init_string[i];
+		if (i < N - 2) {
+			new_node = &node_pool[node_pool_cnt++];
+			new_node->idx = i;
+			if (i == 0)
+				book[i].hash = my_hash(init_string[i], init_string[i + 1], init_string[i + 2]);
+			else
+				book[i].hash = next_hash(book[i - 1].hash, init_string[i - 1], init_string[i + 2]);
+			book[i].ptr = new_node;
+			hash_table[book[i].hash].push(new_node);
+		}
+	}
+	book_len = N;
 }
-int lll;
+
 int change(char string_A[], char string_B[])
 {
-	int					A_hash_idx;
-	list<int>::iterator	A_iter;
+	int		ppre_idx, pre_idx, cur_idx, cur_hash, new_hash, temp_idx, change_cnt;
+	int		hash_A = my_hash(string_A[0], string_A[1], string_A[2]);
+	t_node	*cur_node, *next_node;
 
 
-	A = string_A;
-	B = string_B;
-	A_hash_idx = my_hash(A);
-	A_count = hash_table[A_hash_idx].size();
-
-	// printf("\n#%d book : %s\n", ++lll, book);
-	// printf("A : %s\n", A);
-	// printf("B : %s\n", B);
-	for (int i = 0; i < A_count; ++i) {
-	// printf("\ntable : ");
-	// 	for (list<int>::iterator temp = hash_table[A_hash_idx].begin(); temp != hash_table[A_hash_idx].end(); ++temp) {
-	// 		printf("%d ", *temp);
-	// 	}
+	// printf("baa table : ");
+	// hash_table[my_hash('b', 'a', 'a')].print();
+	// printf("bac table : ");
+	// hash_table[my_hash('b', 'a', 'c')].print();
+	// printf("before_string : ");
+	// for (int i = 0; i < book_len; ++i)
+	// 	printf("%c", book[i].c);
 	// printf("\n");
 
-	// printf("\ndbd table : ");
-	// char	kkk[4];
-	// strcpy(kkk, "dbd");
-	// 	for (list<int>::iterator temp = hash_table[my_hash(kkk)].begin(); temp != hash_table[my_hash(kkk)].end(); ++temp) {
-	// 		printf("%d ", *temp);
-	// 	}
-	// printf("\n");
-
-		A_iter = hash_table[A_hash_idx].begin();
-		modify_table(*A_iter);
-	
-	// printf("cur_book : %s\n", book);
+	change_cnt = 0;
+	ppre_idx = -99;
+	pre_idx = -99;
+	cur_node = hash_table[hash_A].begin();
+	while (cur_node != hash_table[hash_A].end()) {
+		next_node = cur_node->next;										// 다음 노드 저장
+		cur_idx = cur_node->idx;
+		if (cur_idx > ppre_idx + 2 && cur_idx > pre_idx + 2) {			// 직전에 변경한 단어와 겹치는지 검사
+			for (int i = 0; i < 3; ++i)									// 단어 변경
+				book[cur_idx + i].c = string_B[i];
+			++change_cnt;
+			for (int i = 0; i < 5; ++i) {
+				temp_idx = cur_idx - 2 + i;
+				if (temp_idx >= 0 && temp_idx < book_len - 2) {		// book 범위를 벗어나는지 검사
+					cur_hash = book[temp_idx].hash;
+					new_hash = my_hash(book[temp_idx].c, book[temp_idx + 1].c, book[temp_idx + 2].c);
+					if (cur_hash != new_hash) {
+						if (next_node == book[temp_idx].ptr)			//삭제하려는 노드가 다음 노드라면 다음 노드 갱신
+							next_node = hash_table[cur_hash].erase(book[temp_idx].ptr);
+						else
+							hash_table[cur_hash].erase(book[temp_idx].ptr);
+						hash_table[new_hash].push(book[temp_idx].ptr);	//노드 옮기기
+						book[temp_idx].hash = new_hash;
+					}
+				}
+			}
+			ppre_idx = pre_idx;
+			pre_idx = cur_idx;
+		}
+		cur_node = next_node;
 	}
-	// printf("\ncur_book : %s\n", book);
 
-	// get_pi(A);
-	// kmp();
-	// find_modify();
-	res = A_count;
-	// printf("res : %d\n", res);
-	return (res);
+	// printf("after_string  : ");
+	// for (int i = 0; i < book_len; ++i)
+	// 	printf("%c", book[i].c);
+	// printf("\n");
+
+	return (change_cnt);
 }
 
 void result(char ret[])
 {
-	strcpy(ret, book);
-	// printf("ret : %s\n", ret);
+	for (int i = 0; i < book_len; ++i)
+		ret[i] = book[i].c;
 }
-// 1
-// 80 10 2 3
-// 1
-// 0
-// 2
-// abaaabbabb
-
-
-// int	pi_table[3];
-
-// void	get_pi(char *str)
-// {
-// 	int	cur_idx;
-// 	int	count;
-
-// 	cur_idx = -1;
-// 	count = 0;
-// 	while (str[++cur_idx] != '\0') {
-// 		if (cur_idx == 0) {
-// 			pi_table[cur_idx] = 0;
-// 			continue ;
-// 		}
-// 		while (count > 0 && str[count] != str[cur_idx])
-// 			count = pi_table[count - 1];
-// 		if (str[count] == str[cur_idx])
-// 			pi_table[cur_idx] = ++count;
-// 		else
-// 			pi_table[cur_idx] = 0;
-// 	}
-// 	// pi_table[0] = 0;
-// 	// if (str[0] == str[1])
-// 	// 	pi_table[1] = 1;
-// 	// else
-// 	// 	pi_table[1] = 0;
-// 	// if (str[0] == str[1] && str[1] == str[2])
-// 	// 	pi_table[2] = 2;
-// 	// else if (str[0] == str[2])
-// 	// 	pi_table[2] = 1;
-// 	// else
-// 	// 	pi_table[2] = 0;
-// }
-
-// void	kmp(void)
-// {
-// 	int	book_idx;
-// 	int	pat_idx;
-
-// 	book_idx = -1;
-// 	pat_idx = 0;
-// 	while (book[++book_idx] != '\0') {
-// 		while (pat_idx > 0 && book[book_idx] != A[pat_idx])
-// 			pat_idx = pi_table[pat_idx - 1];
-// 		if (book[book_idx] == A[pat_idx]) {
-// 			++pat_idx;
-// 			if (A[pat_idx] == '\0') {
-// 				for (int i = 0; i < 3; ++i)
-// 					book[book_idx - 2 + i] = B[i];
-// 				++res;
-// 				pat_idx = 0;
-// 			}
-// 		}
-// 	}
-// }
