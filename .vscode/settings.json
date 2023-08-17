@@ -18,6 +18,10 @@
 		"memory": "cpp",
 		"utility": "cpp",
 		"__hash_table": "cpp",
-		"ostream": "cpp"
+		"ostream": "cpp",
+		"__split_buffer": "cpp",
+		"__tree": "cpp",
+		"atomic": "cpp",
+		"system_error": "cpp"
 	}
 }
