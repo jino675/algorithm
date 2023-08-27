@@ -22,6 +22,9 @@
 		"__split_buffer": "cpp",
 		"__tree": "cpp",
 		"atomic": "cpp",
-		"system_error": "cpp"
+		"system_error": "cpp",
+		"__bit_reference": "cpp",
+		"__string": "cpp",
+		"string_view": "cpp"
 	}
 }

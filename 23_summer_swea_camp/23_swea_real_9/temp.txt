@@ -1,0 +1,13 @@
+1 100
+11
+100 ancestor 10
+200 childA ancestor 2 8 1
+200 childB ancestor 3 12 1
+200 grandchildA childA 2 7 2
+300 childB grandchildA 3
+200 grandchildB childA 7 15 2
+200 grandchildC childB 8 20 2
+300 ancestor grandchildC 2
+300 childB childB 0
+400 9 4
+400 7 5
