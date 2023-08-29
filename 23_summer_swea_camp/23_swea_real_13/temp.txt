@@ -1,0 +1,2002 @@
+1 100
+2000
+0
+1 1 cojsinizion 2 3 4
+2 cojsinizion
+3 1 0
+1 2 bwbmufalros 4 3 2
+3 1 0
+4 bwbmufalros eoeoqndzkcp 2 3 4
+3 0 0
+1 3 fkvkgsizcyl 4 3 2
+3 2 0
+3 2 0
+3 0 0
+3 2 0
+3 1 0
+1 4 ukmrudswnuw 4 3 4
+1 5 xdphdqycudx 4 3 4
+3 2 0
+3 1 0
+1 6 ljbngsirynk 4 3 4
+1 7 pykydxrosyg 2 3 2
+1 8 wblfifxmebw 4 3 4
+3 0 0
+3 1 0
+1 9 kyvcbgwmctp 4 3 4
+3 1 0
+3 1 0
+1 10 chycgdhtfvt 4 3 4
+3 2 0
+3 0 0
+3 2 0
+3 0 0
+3 0 0
+3 0 0
+3 1 0
+3 2 0
+1 11 aalfswzolky 4 3 4
+3 2 0
+3 1 0
+3 2 0
+3 1 0
+3 1 0
+3 2 0
+1 12 eohdfccuwwc 2 3 4
+1 13 onxfheoilol 2 3 2
+3 1 0
+3 2 0
+3 1 0
+3 1 0
+1 14 mdxsufacvhd 4 3 4
+1 15 bpqllmqkzti 4 3 4
+1 16 crxevdthnry 4 3 2
+3 0 0
+3 0 0
+1 17 cjnaheoiifg 4 3 2
+3 0 0
+1 18 qmwouyvzkzx 4 3 2
+1 19 jqqsxumiich 2 3 2
+3 1 0
+3 1 0
+3 1 0
+3 1 0
+3 1 0
+1 20 cudxmjionmw 4 3 4
+3 1 0
+3 0 0
+3 0 0
+3 1 0
+3 2 0
+3 0 0
+3 1 0
+3 0 0
+3 1 0
+3 0 0
+1 21 kztiudxzgid 4 3 4
+2 ljbngsirynk
+1 22 gjzfszfqczr 4 3 2
+3 2 0
+1 23 psynduuqxlf 2 3 4
+1 24 dobqeqyucbq 2 3 4
+3 1 3
+3 1 6
+1 25 cjnasojdzqs 4 3 4
+3 2 0
+3 2 0
+3 0 0
+1 26 qoawmgzipps 4 3 4
+3 1 3
+3 2 0
+3 1 6
+1 27 ukmrumwbpql 4 3 4
+3 2 0
+3 1 3
+1 28 cjnazwjwblf 4 3 4
+1 29 mebwinizceo 4 3 4
+1 30 sbnazwjoskj 2 3 4
+3 0 0
+3 2 0
+3 0 0
+3 1 6
+1 31 pubmwcobmpy 4 3 4
+3 1 3
+3 0 0
+3 1 6
+3 1 3
+1 32 aalfabonvyn 4 3 4
+3 0 0
+1 33 aalfzrskxtq 4 3 4
+1 34 ukmrumwmebw 4 3 4
+3 1 6
+3 0 0
+1 35 qxlfcqfcuqo 4 3 2
+3 1 3
+3 0 0
+3 0 0
+3 0 0
+3 2 0
+3 1 6
+3 2 0
+3 2 0
+4 ljbngsirynk zhnpcqfnvcu 2 3 2
+3 2 20
+3 0 5
+1 36 pubmoptgxha 4 3 4
+1 37 mebwyppkzti 4 3 4
+3 2 20
+3 2 0
+1 38 wxdzpmmstzx 2 3 4
+1 39 eobnudsxwud 2 3 4
+3 2 0
+3 1 0
+1 40 nvyndajbpqv 4 3 2
+1 41 nvynlmqqkqx 4 3 2
+3 1 0
+3 0 5
+3 0 0
+3 1 0
+3 2 20
+3 2 0
+3 0 5
+3 2 20
+1 42 gfjyudxzjsm 2 3 4
+1 43 dxyfvghzxde 2 3 4
+3 2 0
+3 2 0
+3 2 0
+3 2 0
+3 2 0
+1 44 onmwwdpzjco 4 3 2
+3 1 0
+3 2 44
+1 45 dxnkmjizfco 2 3 2
+3 1 0
+1 46 xwudbirzicr 4 3 2
+1 47 onmwwhvherk 4 3 4
+1 48 zkcpwvhzion 4 3 4
+3 0 20
+3 0 5
+3 2 20
+1 49 ajaiufaljcu 4 3 2
+1 50 xqzvzwjfozx 4 3 2
+3 1 45
+1 51 uwzvheobsuy 2 3 4
+3 2 1
+3 2 0
+3 0 45
+4 eohdfccuwwc snioheomicg 4 3 4
+1 52 yyjswvhbsuy 4 3 4
+1 53 rynkmgzfofk 4 3 4
+1 54 ygsjzrsdfuv 4 3 4
+3 0 5
+3 0 0
+3 0 0
+3 1 0
+3 0 0
+3 1 0
+3 2 20
+3 1 45
+3 1 20
+3 0 5
+3 0 0
+3 1 0
+1 55 dyygjlzkyvc 4 3 4
+1 56 efrkszfdfuv 2 3 4
+1 57 buhwrrcnvyn 4 3 4
+3 2 20
+1 58 ygmrjlzosvl 2 3 2
+3 2 44
+4 pubmwcobmpy mrbmcweqvcw 2 3 2
+3 2 1
+1 59 mdxszrpkyyy 4 3 2
+3 0 45
+3 1 20
+3 2 44
+1 60 micgkakucbq 4 3 4
+3 1 0
+3 0 20
+3 0 5
+3 0 0
+3 0 0
+3 2 20
+3 2 44
+1 61 waxsoxoildf 2 3 4
+1 62 lrhyaboztgh 4 3 4
+3 1 0
+3 0 20
+3 1 45
+3 0 5
+3 0 0
+1 63 wnuwbirxqdp 4 3 2
+1 64 cvhdqqtipst 4 3 2
+3 2 20
+3 2 44
+3 0 20
+3 1 45
+3 1 20
+3 0 5
+1 65 xqzveinzxdj 4 3 2
+3 0 0
+3 1 0
+1 66 dpqmmjiajai 4 3 4
+1 67 dpqmmjizjsm 4 3 4
+1 68 sdyfnbwfkvk 4 3 4
+1 69 mmjvcwemdxs 4 3 4
+3 2 20
+1 70 rekycyrnvyn 2 3 4
+3 0 5
+1 71 nghydxrxwud 4 3 4
+3 1 0
+3 0 0
+3 2 20
+1 72 xhsmvzjmvwa 4 3 4
+3 1 66
+1 73 zfjysojxgxf 4 3 4
+1 74 wnuwbirqmzf 4 3 2
+3 0 0
+3 1 20
+4 dpqmmjiajai nghyjlztxfc 4 3 4
+3 0 5
+3 1 0
+1 75 txfczrpijcy 4 3 4
+3 2 20
+3 1 67
+3 1 20
+3 1 67
+3 1 20
+3 1 67
+3 1 20
+3 1 67
+3 1 20
+3 2 44
+3 1 0
+1 76 mctpigpriym 4 3 4
+4 cudxmjionmw dfvkwbwyyvl 2 3 2
+3 1 0
+3 1 0
+1 77 zkcptfzipps 4 3 4
+3 2 1
+3 0 45
+3 2 1
+1 78 wonpifxylke 2 3 4
+3 2 0
+1 79 fggbraobsuy 4 3 4
+1 80 micggyccudx 4 3 4
+1 81 kcmrraodfry 4 3 2
+1 82 stzxtfzvlgx 4 3 2
+1 83 zionxumztgh 4 3 4
+1 84 zkcpwakchpu 4 3 2
+3 1 29
+3 1 1
+1 85 ynkytanzjkz 2 3 2
+1 86 txfcvghdyyg 4 3 4
+3 2 83
+3 1 19
+1 87 zgidzwjbphe 4 3 2
+3 0 0
+3 2 10
+3 1 0
+3 0 0
+1 88 buhmszfzcky 4 3 2
+3 0 0
+3 1 0
+3 0 0
+3 1 0
+1 89 whltsojzgid 4 3 4
+1 90 gfnkmjioskj 2 3 4
+1 91 ildfcujbpql 4 3 4
+3 0 0
+1 92 zjsmwdpajzt 4 3 2
+3 2 0
+3 0 0
+3 0 0
+1 93 fofkwhvmbmd 4 3 2
+3 1 0
+1 94 mmjvebujwdf 4 3 2
+1 95 jsdxyobosgx 2 3 2
+3 2 0
+3 2 0
+3 0 0
+3 1 0
+3 2 0
+3 1 0
+3 2 0
+3 1 0
+1 96 iidonagxhch 4 3 2
+3 2 0
+1 97 gjzfdcfcrxe 4 3 4
+1 98 zceogatoskj 4 3 4
+3 1 0
+3 1 0
+3 1 0
+3 1 0
+3 1 0
+3 1 0
+1 99 wowcduuwbqk 2 3 2
+1 100 oxcoxumbysj 4 3 4
+1 101 mmjvqqtnveg 4 3 4
+3 0 0
+3 2 0
+3 2 0
+1 102 wnuwszfzion 4 3 4
+4 zceogatoskj hnchudsbpql 4 3 4
+1 103 ayghtfzolky 2 3 4
+3 1 0
+1 104 ukmrmgzkzti 4 3 4
+3 0 0
+3 2 0
+1 105 uddfuizdyon 2 3 2
+3 1 0
+1 106 lfnalmqqmuk 2 3 2
+3 2 0
+1 107 xgxfgsiwblf 4 3 4
+3 2 0
+3 2 0
+1 108 yexpwakhnqm 4 3 2
+1 109 yexpwyewigo 4 3 4
+1 110 ucbqrrcbuhm 4 3 4
+1 111 xhsmwvhbuhm 4 3 4
+4 waxsoxoildf kxtqkpmkxcj 4 3 2
+3 0 0
+4 onxfheoilol pubmeadvlgf 4 3 4
+1 112 zvjsdxryyjs 2 3 4
+3 0 0
+1 113 xqzvswitfzt 4 3 2
+3 1 0
+1 114 buhmwcoolky 4 3 4
+1 115 zjsmwhvqqre 4 3 4
+1 116 keeoswiztzf 2 3 2
+1 117 fggbdcfrynk 4 3 4
+1 118 fkvkzrpkyvc 4 3 4
+4 ukmrmgzkzti mmjvzwjkyvc 4 3 4
+3 1 0
+3 0 0
+1 119 rehrzrpdyyg 2 3 4
+3 0 0
+3 2 0
+3 1 0
+3 0 0
+3 0 0
+3 1 0
+1 120 kztigsixgcr 4 3 2
+3 2 0
+3 1 0
+3 0 0
+1 121 chycwvhqxkz 4 3 2
+1 122 gxhaigpxwud 4 3 4
+3 1 0
+3 2 0
+3 2 0
+3 2 0
+3 2 0
+3 0 0
+3 1 0
+1 123 ygnpwakyexp 4 3 4
+3 0 0
+1 124 cjnankxwblf 4 3 4
+3 2 0
+3 2 0
+3 0 0
+1 125 kcmrswiriym 4 3 4
+1 126 vkpyfewgxdo 2 3 2
+3 0 0
+3 1 0
+3 0 0
+1 127 vlpseqyoxco 2 3 4
+3 0 0
+3 0 0
+1 128 zkdeniwcvhd 2 3 4
+3 1 0
+3 0 0
+3 1 0
+1 129 lftmfewkcmr 2 3 4
+1 130 txfceqynveg 4 3 4
+3 1 0
+3 2 0
+4 dyygjlzkyvc vndoduuhcwv 4 3 4
+3 1 0
+1 131 dfnkoetherk 2 3 4
+1 132 fggbvhhkyvc 4 3 4
+3 0 0
+1 133 vkaiqixukcu 2 3 2
+1 134 bmpyyhfqvcp 4 3 4
+3 2 0
+1 135 zjsmcyrcwef 4 3 4
+3 1 0
+3 2 0
+3 0 0
+4 qmwouyvzkzx xgxfkpmherk 4 3 4
+3 2 0
+3 0 0
+3 2 0
+3 0 0
+3 0 0
+1 136 deghkxwzxbp 2 3 2
+3 1 0
+1 137 kxtqvhhnghy 4 3 4
+1 138 haonzwjqoaw 2 3 4
+3 1 0
+1 139 ucbqeadmctp 4 3 4
+1 140 herkigpvlaa 4 3 2
+1 141 zvycyobsdyf 2 3 4
+3 0 0
+3 1 0
+3 0 0
+3 0 0
+1 142 riymcqfnveg 4 3 4
+3 1 0
+3 0 0
+1 143 cvhdveqfozx 4 3 2
+3 0 0
+3 2 0
+3 1 0
+1 144 ildfgyccjna 4 3 4
+3 0 0
+3 1 0
+1 145 qcjqveqqxdz 4 3 2
+3 1 0
+1 146 vlgftjpbsnv 4 3 2
+3 0 0
+1 147 rynkeinzkcp 4 3 4
+3 0 0
+1 148 vlgfcqfqqre 4 3 4
+4 fofkwhvmbmd mhpibirjell 4 3 4
+3 1 0
+1 149 dyygwbwkxtq 4 3 4
+1 150 tsghveqxhsm 2 3 4
+3 1 0
+3 2 0
+1 151 cudoaljclkr 2 3 4
+3 0 0
+3 0 0
+1 152 mwegygaxwvn 2 3 2
+1 153 xdpheqyxdph 4 3 4
+3 2 0
+1 154 oskjypphcwv 4 3 4
+1 155 ztghwhvmebw 4 3 4
+3 2 0
+3 2 0
+1 156 mebwhxtkzst 4 3 2
+3 1 0
+3 1 0
+1 157 fktidqyzceo 2 3 4
+1 158 mwmweadtifs 2 3 4
+3 1 0
+3 1 0
+3 1 0
+1 159 cjefwdpvnbu 2 3 2
+1 160 vxqsigpmdri 2 3 2
+3 1 0
+3 1 0
+3 0 0
+1 161 gakyymwfodp 2 3 2
+1 162 zfjywakzgid 4 3 4
+3 1 0
+3 0 0
+1 163 mhefgsiayqb 2 3 4
+1 164 hcwvsojhnch 4 3 4
+3 2 0
+3 2 0
+3 1 0
+3 0 0
+4 hnchudsbpql djodwdpmmjv 4 3 4
+3 1 0
+1 165 ljbndxrkcmr 4 3 4
+1 166 xwudwbwqvcp 4 3 4
+1 167 fkvkifxkxtq 4 3 4
+3 0 0
+3 1 0
+3 1 0
+3 2 0
+3 0 0
+4 ayghtfzolky riwoqqtsnio 2 3 4
+3 1 0
+1 168 fofkdajhwrj 4 3 4
+3 2 0
+1 169 pxeouizqcjq 2 3 4
+3 1 0
+1 170 mwcpzrptldj 2 3 2
+1 171 smtpvtmwnuw 2 3 4
+3 0 0
+3 2 0
+1 172 yxdfoptmhpi 2 3 4
+3 2 0
+3 2 0
+3 1 0
+1 173 zvcgqqtcrxe 2 3 4
+3 1 0
+3 2 0
+3 1 0
+3 0 0
+1 174 hcwvmmxzxde 4 3 4
+3 1 0
+1 175 nveggdhytte 4 3 4
+1 176 gfbwswiwnuw 2 3 4
+3 2 0
+3 1 175
+3 2 0
+1 177 wblfnbwnveg 4 3 4
+3 0 101
+3 1 64
+3 0 14
+3 1 49
+1 178 mhpiebufkvk 4 3 4
+1 179 lfaiygakueo 2 3 2
+1 180 mebwbhdstzx 4 3 4
+3 0 0
+1 181 hwrjusgoskj 4 3 4
+3 2 151
+1 182 nkvtbgwzkcp 2 3 4
+1 183 tqnkgatpqwv 2 3 4
+1 184 lrhyqqtucbq 4 3 4
+3 1 0
+3 2 0
+3 1 0
+3 1 0
+3 0 49
+1 185 bmhwtomkxtq 2 3 4
+3 0 0
+1 186 kjlfmofkyvc 2 3 4
+1 187 eozxcicbhdr 2 3 4
+3 2 151
+1 188 zxdejlzzxde 4 3 4
+3 0 49
+3 0 0
+3 0 0
+3 0 0
+3 0 0
+3 2 151
+3 1 0
+1 189 xwudeinmdmh 4 3 2
+1 190 zxdeyhfqkhc 4 3 2
+3 2 0
+3 2 0
+3 1 0
+3 1 0
+3 0 49
+1 191 crxeojtmebw 4 3 4
+1 192 zxdeodamdxs 4 3 4
+3 1 14
+1 193 ucbqugvmlip 4 3 4
+3 0 69
+1 194 bsuywbwtxfc 4 3 4
+3 2 14
+3 2 64
+1 195 dewvgatolmc 2 3 2
+3 0 14
+3 2 64
+3 0 14
+3 2 64
+1 196 ippstfzfggb 4 3 4
+3 0 14
+3 2 64
+4 zkcpwakchpu ikxeyhfiljw 2 3 2
+3 0 14
+3 2 64
+1 197 uwwcszfbpql 4 3 4
+1 198 buhwuyvzceo 4 3 4
+3 0 14
+4 mmjvcwemdxs dpqmhxtfkmi 4 3 2
+1 199 whltvtmkhda 4 3 4
+1 200 zceovghqmwo 4 3 4
+1 201 dpqmvdtgxha 4 3 4
+3 1 49
+1 202 tqchojtajai 2 3 4
+3 1 14
+3 2 64
+3 0 14
+1 203 gjzfgdhcjna 4 3 4
+1 204 djsjcwekzti 2 3 4
+3 1 49
+3 0 202
+3 0 33
+3 0 0
+1 205 ippswakcrox 4 3 2
+1 206 fkvkpmmnvyn 4 3 4
+3 0 0
+3 2 61
+3 2 159
+1 207 fofkvzjlrqk 4 3 2
+3 1 98
+3 2 94
+1 208 olkygdhgjzf 4 3 4
+1 209 xhsmtomqqdf 4 3 2
+1 210 xswvkvwtxfc 2 3 4
+1 211 aalfsojhzon 4 3 2
+1 212 qqreudsfkvk 4 3 4
+3 0 98
+3 2 94
+3 1 178
+1 213 zgidvhhdzqs 4 3 4
+1 214 bpqlnagdsqz 4 3 4
+3 0 172
+3 0 0
+3 1 36
+1 215 zfjymjimedj 4 3 2
+3 2 122
+3 1 140
+3 1 122
+1 216 iidoniwjwhr 4 3 4
+3 0 201
+1 217 ljbnkvwolky 4 3 4
+3 1 16
+1 218 qmwobgwdzqs 4 3 4
+3 0 97
+3 1 117
+1 219 kyvcvzjyyjs 4 3 4
+4 kyvcbgwmctp mmjvlmqmdxs 4 3 4
+1 220 ippsblisskw 4 3 4
+1 221 gxhaduuvlgf 4 3 4
+1 222 udchrrcevaj 2 3 4
+1 223 xdphygabsdj 4 3 2
+1 224 udodqqtjcgf 2 3 4
+3 1 97
+3 2 191
+3 2 180
+3 1 0
+1 225 crxeebuzkcp 4 3 4
+3 2 82
+3 0 180
+3 2 82
+3 1 196
+3 2 117
+3 2 147
+3 2 77
+3 2 220
+3 2 0
+1 226 nvegusgzceo 4 3 4
+3 2 0
+3 2 0
+3 2 0
+3 2 0
+3 0 26
+3 2 220
+1 227 chycojtzion 4 3 4
+1 228 mdxstjprynk 4 3 4
+3 0 26
+3 0 138
+1 229 ljbndqywblf 4 3 4
+3 2 26
+1 230 hwmwduuzjsm 2 3 4
+1 231 riymduuxfvr 4 3 4
+3 0 138
+3 1 28
+1 232 qltdigpqvxw 2 3 2
+1 233 herkwdpzgid 4 3 4
+3 2 8
+3 0 124
+1 234 xhsmwdpgrgx 4 3 2
+3 2 8
+3 2 180
+3 1 0
+3 1 0
+3 2 82
+1 235 bmpymjiqmwo 4 3 4
+1 236 xjphodaucmw 2 3 2
+3 2 221
+3 0 201
+1 237 kyvcyppkzqk 4 3 2
+1 238 tqreymwkxtq 2 3 4
+3 0 0
+3 1 16
+1 239 kztiraowblf 4 3 4
+3 0 97
+3 0 208
+1 240 kaaimjimdxs 2 3 4
+1 241 wnuwigponpu 4 3 2
+1 242 zxdeoxofggb 4 3 4
+1 243 xdphheoqqre 4 3 4
+3 2 97
+1 244 dxhwzrsipps 2 3 4
+3 0 208
+3 0 11
+3 0 0
+3 1 0
+3 0 0
+1 245 bmzvwbwajst 2 3 2
+3 2 208
+3 0 11
+3 2 208
+1 246 tinakpmston 2 3 2
+3 1 10
+3 1 203
+1 247 xdphcujgxha 4 3 4
+3 2 17
+3 2 117
+3 0 196
+1 248 tqaiqqtkycj 2 3 2
+1 249 zfjyfewyiuw 4 3 4
+3 0 244
+1 250 ylkecwedyyg 4 3 4
+3 1 33
+3 1 244
+3 0 80
+1 251 zjsmwcohpkj 4 3 4
+1 252 pubmzrskzyl 4 3 2
+1 253 fkvcmmxqrrj 2 3 4
+3 1 144
+1 254 qvcpgdhdyyg 4 3 4
+3 0 0
+3 2 17
+3 0 203
+3 1 10
+3 1 203
+3 1 10
+4 qvcpgdhdyyg nvynvzjkctx 4 3 4
+4 fofkdajhwrj ajaiwdpbyqk 4 3 2
+3 2 0
+1 255 dozvbgwylcr 2 3 2
+1 256 oxcokakxwnw 4 3 4
+3 0 0
+1 257 djodumwzrdx 4 3 4
+3 1 203
+3 0 208
+3 1 10
+3 2 0
+3 2 0
+1 258 gjzfgdhjtbm 4 3 4
+1 259 dzqsdajoxgx 4 3 2
+3 0 0
+3 2 0
+3 1 203
+3 1 10
+1 260 ygsjdxcwhlt 4 3 4
+3 1 203
+3 0 208
+3 0 11
+3 2 208
+3 0 11
+3 1 0
+3 0 0
+1 261 uwwctanpcre 2 3 2
+3 1 0
+3 2 208
+3 0 11
+3 1 0
+1 262 qxlfufabwbm 4 3 4
+1 263 iidocyrmmjv 4 3 4
+3 0 0
+3 1 0
+3 0 0
+3 0 0
+3 1 0
+1 264 bnjymjijwhr 2 3 4
+3 0 0
+1 265 hmnkufaqvpu 2 3 2
+3 0 0
+3 1 0
+1 266 riymzwjwnuw 4 3 4
+1 267 ajaidcfxydv 4 3 4
+1 268 vlgfveqchyc 4 3 4
+1 269 cwefwvhmdxs 4 3 4
+3 2 208
+3 0 11
+3 0 0
+3 0 0
+1 270 mwhdnbwzgid 2 3 4
+3 2 208
+1 271 mhxprrckcmr 2 3 4
+3 1 10
+1 272 jwhrbirvcwf 4 3 4
+3 1 203
+3 0 208
+3 0 11
+1 273 chaiwhnjtbm 2 3 4
+1 274 jtbmcwerjty 4 3 4
+3 0 0
+3 0 0
+3 0 0
+1 275 zjsmraogxyg 4 3 2
+3 2 208
+3 0 11
+3 2 208
+1 276 mwodmofqxud 2 3 2
+3 1 10
+1 277 hnchnagztgh 4 3 4
+1 278 ajaivzjyaww 4 3 4
+3 0 268
+1 279 dkymqqtzxde 2 3 4
+3 2 10
+3 1 203
+4 iidocyrmmjv oduvtjpjtbm 2 3 4
+1 280 eonpnagvlzk 2 3 2
+3 2 17
+3 1 12
+1 281 ufpiwdpqmwo 2 3 4
+3 2 80
+3 0 12
+1 282 zxlfalistzx 2 3 4
+1 283 djodojtchyc 4 3 4
+1 284 xgxftomqmwo 4 3 4
+3 0 103
+3 2 12
+1 285 bsuyininveg 4 3 4
+3 2 80
+1 286 zionodaipps 4 3 4
+1 287 oskjgatgjye 4 3 2
+1 288 wcdzqogqmqv 2 3 2
+1 289 kyvcduuipps 4 3 4
+3 0 12
+1 290 kxtqdcfzjsm 4 3 4
+1 291 kuymaboyexp 2 3 4
+3 2 80
+1 292 qmwoyppfkqx 4 3 2
+1 293 micgmjickfg 4 3 2
+3 1 144
+1 294 ippsoptugwa 4 3 2
+1 295 mifknbwygnp 2 3 4
+1 296 wblfvzjzikc 4 3 2
+3 1 80
+1 297 tqjqqogqqwn 2 3 2
+1 298 naiddajtxcw 2 3 2
+3 1 144
+1 299 hwrjswimexh 4 3 2
+1 300 zionugvvnzc 4 3 2
+3 0 0
+1 301 uwwcyobstzx 4 3 4
+3 2 17
+1 302 yyjsmofagit 4 3 4
+3 1 12
+3 1 17
+1 303 oskjtjpipps 4 3 4
+3 2 117
+3 0 196
+4 zxdejlzzxde hnchyppvvqx 4 3 2
+3 0 244
+1 304 gxhadqynvri 4 3 2
+3 0 257
+3 0 0
+1 305 jyhadcfvndo 2 3 4
+1 306 ljbnfccekpx 4 3 4
+3 2 0
+3 2 0
+3 2 0
+3 1 27
+3 2 15
+1 307 hnchqogkyvc 4 3 4
+3 2 120
+3 0 15
+1 308 ygnptjpgwzj 4 3 4
+1 309 yyjsbliqvqx 4 3 2
+3 2 120
+1 310 cpvczrszkcp 2 3 4
+3 1 3
+3 1 120
+3 0 15
+3 2 120
+1 311 fxjsrrcvlgf 2 3 4
+3 1 3
+1 312 pubmoetzrdx 4 3 4
+4 chycwvhqxkz lfjsmmxqqdz 2 3 2
+3 2 250
+3 0 78
+3 1 167
+3 2 290
+3 0 33
+3 0 0
+3 2 290
+1 313 nkmwwbwphrn 2 3 4
+1 314 kaycqqttfvt 2 3 4
+3 1 267
+3 1 117
+1 315 xgpywbwcktd 2 3 4
+3 0 196
+3 1 82
+4 ajaivzjyaww kztivdtbmxq 4 3 2
+1 316 zcqlciczgid 2 3 4
+3 2 304
+3 0 201
+1 317 debndqyqxzg 2 3 2
+3 1 16
+1 318 tfvtjlzonmw 4 3 4
+4 cjnaheoiifg nvynwbwziky 4 3 2
+3 1 201
+1 319 xhsmuyvcudx 4 3 4
+3 0 0
+3 0 0
+3 1 16
+3 2 147
+3 2 77
+3 2 220
+3 1 309
+3 0 219
+3 0 132
+1 320 dyygusgvllr 4 3 2
+3 2 289
+3 1 221
+3 0 201
+1 321 txfcheobpql 4 3 4
+1 322 phygjfkbwbm 2 3 4
+3 1 16
+3 1 201
+1 323 tpgfqixmebw 2 3 4
+3 0 0
+1 324 qvcpwvhjzwo 4 3 4
+1 325 nghydqyryqx 4 3 2
+3 1 16
+1 326 qvcpqqtpeoc 4 3 4
+1 327 cwefqqtmzcr 4 3 2
+3 1 201
+3 1 16
+1 328 nvegwyevlgf 4 3 4
+3 2 147
+1 329 oskjoptzion 4 3 4
+3 2 77
+1 330 smxfudshcwv 2 3 4
+3 1 196
+4 cojsinizion zionblikzti 4 3 4
+1 331 mebwtanzjme 4 3 2
+1 332 qmwokakwnbu 4 3 2
+3 0 244
+3 2 220
+1 333 qqredajbpql 4 3 4
+3 2 0
+3 2 0
+3 2 0
+1 334 emfcniwqoaw 2 3 4
+3 0 244
+3 2 220
+1 335 qxlfnbwsifh 4 3 4
+4 xhsmwvhbuhm vcrjwdpzceo 2 3 4
+3 0 244
+3 0 257
+1 336 olkyeadqkdz 4 3 4
+3 0 0
+3 0 0
+3 1 27
+1 337 zionwbwyygx 4 3 2
+1 338 qmwonbwzcgk 4 3 4
+3 0 0
+3 0 0
+3 1 257
+3 0 0
+3 0 0
+3 2 0
+3 2 0
+1 339 ippszrpylke 4 3 4
+1 340 cjnavtmvnsp 4 3 4
+1 341 fofkraoonmw 4 3 4
+3 0 0
+1 342 gxhaoptnvyn 4 3 4
+2 gjzfszfqczr
+3 1 88
+3 0 110
+3 0 24
+3 0 305
+3 2 55
+1 343 oskjzrscktd 4 3 4
+3 1 221
+1 344 jtmrheozion 2 3 4
+3 0 201
+3 1 16
+3 2 147
+4 tqjqqogqqwn xgxfveqwnmw 4 3 2
+1 345 wnuwdxclrhy 4 3 4
+3 1 65
+1 346 qkdzcwemhpi 4 3 4
+1 347 bpqltfzherk 4 3 4
+3 2 283
+3 2 10
+1 348 vlgfmjihepx 4 3 2
+1 349 wokegsikxtq 2 3 4
+4 oskjgatgjye herkcyrzrdx 4 3 4
+3 2 318
+1 350 cktdwcozxde 4 3 4
+3 1 66
+1 351 oskjymwsnvl 4 3 2
+1 352 chycszfhnvn 4 3 2
+1 353 olkynagdjod 4 3 4
+1 354 buhmuyvbpql 4 3 4
+1 355 micgifxyexp 4 3 4
+3 0 137
+3 2 325
+1 356 bqbmtfzupdj 2 3 2
+3 2 35
+3 0 23
+3 2 35
+1 357 mdxsdxrzxzi 4 3 2
+3 0 23
+3 1 221
+1 358 qxbnxummebw 4 3 4
+3 1 230
+3 1 221
+3 2 148
+3 0 311
+1 359 dzvteadvndo 2 3 4
+3 0 0
+3 0 0
+3 2 148
+3 1 35
+3 0 23
+3 2 35
+3 1 142
+1 360 zftqnbwdfuv 2 3 4
+1 361 cudxaljzyga 4 3 4
+1 362 ztghmjinvme 4 3 2
+3 0 125
+1 363 onnkgycmixg 2 3 2
+3 0 129
+3 1 126
+1 364 dpqmeqybsjk 4 3 4
+3 0 178
+3 1 225
+1 365 vcbwugvzceo 2 3 4
+3 2 77
+3 2 220
+4 gxhadqynvri cwefalizgri 4 3 2
+3 2 0
+3 1 309
+3 0 219
+3 0 132
+3 2 289
+1 366 oxcougvvsvx 4 3 4
+3 1 221
+3 0 201
+1 367 rkrefccqxbn 2 3 4
+4 nghydxrxwud yexpdxcolky 4 3 4
+3 0 0
+3 1 16
+3 1 201
+3 0 0
+3 2 221
+3 1 230
+3 2 135
+3 2 304
+3 0 135
+3 2 304
+3 1 282
+1 368 ukmrdxrolky 4 3 4
+3 2 82
+1 369 mwqlvghajai 2 3 4
+3 0 180
+1 370 nvegdxrchyc 4 3 4
+3 1 0
+1 371 mdxstomndxp 4 3 4
+3 1 0
+1 372 vndoeinilij 4 3 2
+1 373 ygnpkxwmrxp 4 3 4
+1 374 kzbmlmqbquq 2 3 4
+1 375 ztghmofxwud 4 3 4
+3 1 0
+3 0 191
+1 376 mctpwbwcszr 4 3 2
+3 1 227
+3 1 191
+1 377 ztghusgbwbm 4 3 4
+3 2 180
+3 1 0
+3 1 0
+3 0 191
+1 378 ukmrwyewwqd 4 3 4
+3 0 97
+1 379 fofkevdqscj 4 3 4
+1 380 dotmufazjsm 4 3 4
+3 2 225
+4 ippsblisskw dzqsgatzceo 4 3 4
+3 0 97
+1 381 bmpynkxzixg 4 3 2
+3 0 208
+3 2 97
+3 1 267
+1 382 nghyvequszi 4 3 4
+3 2 0
+3 2 0
+1 383 djbquyvcoxp 2 3 4
+3 0 369
+3 0 341
+3 0 53
+3 0 117
+3 1 267
+3 2 0
+1 384 oskjifxmevk 4 3 4
+1 385 cktdusgtxfc 4 3 4
+1 386 jqrehxtzion 2 3 4
+3 1 117
+3 0 196
+1 387 xwudaljfofk 4 3 4
+3 0 244
+3 1 33
+3 2 290
+3 1 267
+3 2 0
+3 0 369
+1 388 zceoaljztud 4 3 2
+3 2 267
+3 1 117
+3 2 147
+1 389 vnghusgfofk 2 3 4
+3 1 372
+3 0 359
+3 2 55
+1 390 ippsugvcudx 4 3 4
+3 2 174
+1 391 uutmbgwukmr 2 3 4
+3 1 253
+1 392 jwhrcyrqvcp 4 3 4
+1 393 ildfudxztgh 4 3 4
+3 1 174
+3 0 154
+3 0 90
+3 0 311
+3 0 0
+3 1 57
+3 0 0
+3 1 311
+3 1 57
+1 394 xwudkakbuhw 4 3 4
+1 395 mhpieadkxtq 4 3 4
+3 0 394
+1 396 zxhdswzhvhf 2 3 4
+1 397 zxdeyppxgxj 4 3 4
+1 398 natpcyrtwmf 2 3 4
+1 399 cudxniwbpql 4 3 4
+3 1 60
+1 400 bqcpbirhpnm 2 3 4
+1 401 zceoojtnghy 4 3 4
+1 402 tixsnagcrxe 2 3 4
+1 403 nghyniwxqzv 4 3 4
+4 oxcokakxwnw vnjywbwwpvt 2 3 4
+1 404 xhwofcczcdj 2 3 2
+3 0 12
+3 1 344
+3 0 0
+4 rynkeinzkcp fofkdcffkeo 4 3 2
+3 1 12
+3 0 103
+3 1 64
+3 0 14
+3 1 49
+1 405 oxcodcfoskj 4 3 4
+1 406 fggbygaqmri 4 3 2
+3 0 369
+1 407 zgideinhcxh 4 3 2
+4 xhwofcczcdj aalfumwqoaw 4 3 4
+3 0 341
+3 0 53
+3 1 26
+3 2 294
+3 0 244
+1 408 mwbmmofjwhr 2 3 4
+1 409 fkvkeinkxtq 4 3 4
+3 2 294
+3 0 244
+1 410 cpondxrqkdz 2 3 4
+3 2 294
+1 411 buhmyhfmctp 4 3 4
+3 0 244
+3 0 257
+3 2 0
+3 0 353
+3 2 283
+3 1 227
+3 0 283
+3 0 353
+3 0 11
+1 412 xwcyqqtotcy 2 3 4
+3 1 396
+3 1 11
+1 413 dfuvheocufo 4 3 2
+3 1 396
+3 2 0
+1 414 kyvclmqqcjq 4 3 4
+3 1 11
+3 1 396
+3 1 11
+3 0 0
+1 415 snioxumktdf 4 3 4
+3 1 396
+4 fggbygaqmri sniooptqqkz 4 3 2
+1 416 fofkwhnylke 4 3 4
+1 417 kyvcnagijcy 4 3 4
+3 2 0
+4 vlpseqyoxco demwgycdymd 2 3 2
+1 418 gpxedajlwhv 2 3 4
+3 2 0
+3 2 0
+3 0 143
+1 419 xwudymwryzj 4 3 2
+3 2 192
+1 420 ijcyzwjpufg 4 3 2
+1 421 bdlhfccqmwo 4 3 4
+4 olkygdhgjzf mmjvdxrming 4 3 2
+3 0 350
+3 0 343
+3 1 33
+1 422 zioninixzjv 4 3 4
+3 1 310
+3 0 134
+1 423 sniodxczxzl 4 3 4
+1 424 qoawheomexw 4 3 2
+1 425 qvcpmgzcrmm 4 3 2
+1 426 fhbwugvjwzv 2 3 2
+3 0 0
+1 427 mmjvuyvwnuw 4 3 4
+3 2 425
+3 1 26
+3 1 425
+1 428 hrdznbwdyqo 2 3 2
+3 1 26
+1 429 zfkjswizceo 2 3 4
+1 430 nkonqndqqre 2 3 4
+3 2 294
+3 0 244
+3 2 294
+1 431 aabmsojsdjp 2 3 4
+3 1 342
+3 2 40
+3 0 32
+1 432 kehrsojuwwc 2 3 4
+3 2 40
+3 1 259
+1 433 cudxdajybkc 4 3 2
+3 0 25
+3 1 431
+3 2 0
+1 434 ycioswzikpx 2 3 4
+3 0 140
+1 435 ghfcwhnipps 2 3 4
+1 436 ztghmjijwhr 4 3 4
+3 0 347
+3 0 354
+4 txfczrpijcy reidqndeeag 2 3 4
+3 1 198
+3 0 394
+1 437 bsuywhvfmzt 4 3 2
+3 1 60
+3 0 12
+3 1 413
+3 1 344
+3 1 413
+1 438 uyynwdpzxmh 2 3 2
+1 439 dzqsoxooskj 4 3 4
+1 440 qmwodajqqbw 4 3 2
+1 441 rkefebuonmw 2 3 4
+1 442 ildfqndzxdj 4 3 2
+3 2 147
+3 1 267
+3 0 369
+4 jqqsxumiich ricpgdhwnuw 2 3 4
+3 2 267
+3 2 0
+3 1 117
+3 2 53
+3 2 147
+3 1 267
+3 0 369
+3 1 43
+3 2 192
+3 2 357
+1 443 micginicudx 4 3 4
+1 444 qlphhxtduyg 2 3 2
+3 0 269
+3 0 135
+3 2 304
+1 445 gxhaymweuxd 4 3 4
+1 446 nghyqogvlgf 4 3 4
+1 447 xdpheadildf 4 3 4
+3 0 135
+3 2 304
+3 2 19
+3 2 74
+3 2 249
+1 448 xgxfswiwndz 4 3 2
+3 2 0
+3 1 129
+3 1 126
+1 449 qmwoodamdlr 4 3 2
+3 2 24
+1 450 ildfyhfwibt 4 3 4
+3 0 359
+3 0 410
+1 451 wnuwraowhlt 4 3 4
+3 0 134
+1 452 lrhydxrqxbn 4 3 4
+1 453 zionheozfka 4 3 2
+3 1 411
+1 454 mdxsodajkgp 4 3 4
+1 455 ztghoptkyvc 4 3 4
+1 456 vlmrumwinjs 2 3 4
+3 1 134
+1 457 qvcpcqfqxky 4 3 2
+1 458 zkcptjpdyyg 4 3 4
+1 459 uvfkugvvxvc 2 3 4
+3 1 411
+3 1 134
+1 460 dvgfswzbwbm 2 3 4
+3 1 411
+4 snioxumktdf ylkerrcrzov 4 3 4
+3 0 110
+3 2 88
+3 1 352
+3 0 283
+3 0 353
+4 cudxdajybkc bwbmgdhzfjy 4 3 4
+1 461 wnuwuyvfmmh 4 3 4
+1 462 kydoumwxhsm 2 3 4
+1 463 fofklmqglnu 4 3 4
+3 0 11
+1 464 itzxuizxxts 2 3 4
+3 1 460
+3 1 11
+4 bdlhfccqmwo vndowvhrynk 2 3 4
+3 2 336
+1 465 sniocqfbess 4 3 4
+3 1 359
+3 1 395
+3 0 346
+1 466 dpqmnagfkvk 4 3 4
+3 1 204
+3 0 356
+1 467 vluygatcrxe 2 3 4
+4 rynkmgzfofk xdphgdhdyyg 4 3 4
+1 468 kztiyobgxha 4 3 4
+3 1 347
+4 fkvkpmmnvyn uwwckakbuhm 4 3 4
+3 1 356
+1 469 dpqmswipjry 4 3 2
+4 lrhyqqtucbq txfczwjtdmd 4 3 2
+3 1 347
+3 0 354
+3 1 198
+1 470 vlgfmmxdpkg 4 3 4
+3 1 354
+1 471 ygnplmqxduw 4 3 2
+2 nvynwbwziky
+3 0 32
+3 0 0
+1 472 mrzxevdfggb 2 3 4
+3 2 40
+3 0 32
+1 473 herkzrptxri 4 3 2
+4 onmwwdpzjco drycuyvrupx 2 3 4
+1 474 whltojtajai 4 3 4
+1 475 zkcpqqttiay 4 3 4
+3 2 40
+3 0 32
+1 476 nveggycktde 4 3 2
+3 0 0
+3 2 40
+1 477 dyyguyvvndo 4 3 4
+1 478 jtbmcqfndqx 4 3 2
+3 0 32
+1 479 mdhyusgpvzj 2 3 2
+1 480 cudxigpzjsm 4 3 4
+3 0 0
+1 481 stchdxcstzx 2 3 4
+3 2 40
+1 482 qxdodxrggri 2 3 4
+3 2 457
+1 483 ildfuizoxzj 4 3 2
+3 1 478
+1 484 stzxhxtysuj 4 3 4
+1 485 mmjvtancujq 4 3 2
+3 2 358
+3 2 180
+3 2 484
+1 486 mdxsgycxdij 4 3 2
+1 487 fsuyudscdgj 2 3 4
+3 2 0
+4 mwmweadtifs olkytfzxpfo 4 3 2
+3 2 0
+3 1 69
+1 488 vcmwbligslx 2 3 4
+3 0 0
+1 489 qxlftjpqxox 4 3 2
+1 490 zjkyymwlmeb 2 3 4
+3 2 80
+1 491 vlgfaljehzj 4 3 4
+1 492 nvegdqyqzcu 4 3 4
+3 0 12
+3 2 80
+3 1 127
+3 2 479
+1 493 fkvkaljnveg 4 3 4
+1 494 phfkxumjwhr 2 3 4
+3 1 385
+4 oxcougvvsvx rynkdxcrjxw 4 3 2
+1 495 dzqsudsnveg 4 3 4
+3 0 343
+3 1 33
+3 0 0
+3 1 310
+3 0 134
+3 0 0
+1 496 dyygfcchcjt 4 3 4
+3 1 411
+3 1 134
+1 497 ijcyfewwwob 4 3 4
+1 498 bmxfkvwxwud 2 3 4
+4 hmnkufaqvpu wnkjwhndotm 2 3 4
+1 499 gxhavghxwmc 4 3 2
+1 500 vnqmuyvpufv 2 3 4
+3 2 457
+3 0 134
+3 2 457
+3 1 478
+3 2 358
+3 2 180
+1 501 crxewbwmdxs 4 3 4
+3 0 191
+3 2 180
+3 0 191
+3 1 227
+3 1 191
+3 0 97
+3 0 0
+3 0 0
+3 2 225
+1 502 vttdusguwwc 2 3 4
+3 0 97
+3 1 267
+3 2 0
+1 503 uwwccujqkdz 4 3 4
+1 504 mctpcweolgx 4 3 2
+3 2 0
+1 505 cwefuyvuwit 4 3 4
+1 506 qlnajfkwtzf 2 3 2
+3 0 369
+3 1 43
+3 0 257
+3 0 353
+3 2 283
+1 507 herkwbwqvvn 4 3 2
+3 2 10
+3 0 283
+3 2 10
+3 2 318
+3 0 10
+3 1 433
+1 508 mdxscweucbq 4 3 4
+1 509 ijcyuizoqdj 4 3 4
+1 510 zkcpgdhbpql 4 3 4
+1 511 qxbnqndtfvt 4 3 4
+3 0 460
+3 0 267
+3 2 0
+1 512 sdyfvtmybuo 4 3 4
+3 0 369
+1 513 ynhyjlzfofk 2 3 4
+3 1 43
+3 2 192
+3 2 508
+3 0 501
+3 0 97
+3 0 0
+3 1 267
+3 2 0
+1 514 herkodarqdl 4 3 4
+1 515 vkkepmmdfbq 2 3 2
+3 1 117
+1 516 cplfodariyy 2 3 2
+3 2 366
+1 517 yyjsdajstzx 4 3 4
+3 2 412
+4 fkvcmmxqrrj nvynyobicdm 4 3 4
+3 2 0
+1 518 zceokpmipps 4 3 4
+3 0 232
+3 1 480
+3 0 390
+1 519 dmdevdtukmr 2 3 4
+3 1 426
+3 0 335
+3 2 0
+1 520 kxtqwhnqodw 4 3 4
+1 521 dfuvgyceoya 4 3 4
+1 522 qlsmodamdxs 2 3 4
+3 0 23
+3 0 244
+3 0 257
+1 523 hrbnswzolky 2 3 4
+1 524 xphryobhsdk 2 3 4
+3 0 353
+3 0 11
+1 525 wnuwkakrynk 4 3 4
+3 2 336
+3 1 359
+3 0 410
+3 0 134
+3 1 411
+3 0 110
+1 526 dfuvgycmkso 4 3 4
+1 527 micgwhvbujw 4 3 4
+3 0 24
+1 528 ippsuizcvfx 4 3 4
+3 0 477
+3 1 354
+1 529 awjskvwbeog 2 3 4
+1 530 zjsmwbwgaqo 4 3 4
+4 cudoaljclkr zxdeyppoquu 4 3 4
+1 531 zxdeswiiddf 4 3 4
+3 1 198
+3 1 354
+1 532 qmwoxumdjqx 4 3 2
+3 2 15
+3 2 120
+1 533 qxtidcftrzw 2 3 4
+3 1 3
+3 0 466
+3 0 0
+3 0 0
+3 0 0
+3 2 493
+3 0 466
+3 0 0
+3 1 214
+1 534 rynkwyeqxyn 4 3 2
+1 535 kztifewjblq 4 3 4
+3 0 354
+3 1 198
+3 0 394
+3 0 498
+3 2 387
+1 536 tqdxwhnxhsm 2 3 4
+3 0 498
+3 0 273
+3 1 416
+3 1 273
+3 2 478
+3 1 457
+3 2 462
+2 xdpheqyxdph
+3 0 0
+1 537 xgxfaljbwbm 4 3 4
+1 538 ikzxwbwblpy 2 3 2
+3 2 247
+1 539 kztiopthnch 4 3 4
+1 540 oskjudxcwqc 4 3 2
+3 2 221
+3 1 230
+1 541 vndopmmbuhm 4 3 4
+1 542 fayctfzjzzh 2 3 4
+3 2 135
+1 543 jwhrzrphcwv 4 3 4
+1 544 nvynoethnch 4 3 4
+3 0 480
+1 545 jwhrveqrbzx 4 3 2
+1 546 tdpywakdymb 2 3 4
+3 0 390
+1 547 qvcpeadbulj 4 3 2
+1 548 ryegwyefkvk 2 3 4
+1 549 zceoygamdxs 4 3 4
+3 0 244
+1 550 qoawduuvndo 4 3 4
+3 2 294
+3 1 342
+1 551 xebmyhfukmr 2 3 4
+1 552 kxtquizmizc 4 3 2
+3 0 201
+4 nghyqogvlgf zrdxuizbpdf 4 3 2
+1 553 fggbdajonzc 4 3 2
+1 554 zgidaljyyjs 4 3 4
+3 2 221
+3 1 230
+1 555 vlgfswiukmr 4 3 4
+3 0 394
+3 0 498
+3 0 273
+3 0 164
+3 0 543
+3 2 174
+1 556 qkghgdhzyfa 2 3 4
+1 557 gxhausgnvfk 4 3 2
+1 558 dfygwhvoeik 2 3 4
+1 559 dyygheoshct 4 3 4
+1 560 yntqeqyxwud 2 3 4
+1 561 zceorrcduxg 4 3 4
+3 2 192
+1 562 yyjsudxxqcp 4 3 2
+1 563 wcidvtmonaa 2 3 2
+3 2 508
+3 1 204
+3 1 274
+3 2 0
+3 1 204
+1 564 ucbqevdomgx 4 3 2
+3 0 356
+3 0 24
+1 565 dfymbgwtdnn 2 3 4
+3 0 477
+1 566 kzbndqyfkvk 2 3 4
+4 dpqmnagfkvk gjzfqqtyexp 4 3 4
+3 2 55
+4 dotmufazjsm yxxswakljmj 2 3 4
+1 567 zionswibwbm 4 3 4
+1 568 mronzrsdiii 2 3 2
+3 2 174
+3 0 543
+3 2 174
+1 569 wwsmszfcktd 2 3 4
+1 570 fkvkwvhriym 4 3 4
+3 0 543
+3 0 264
+3 2 272
+3 1 400
+3 0 24
+3 1 364
+1 571 nvegvghwnti 4 3 2
+1 572 jfxsvtmzkcp 2 3 4
+3 0 0
+3 2 0
+1 573 djodwhvahhw 4 3 4
+3 0 0
+1 574 gxhakxwxwud 4 3 4
+3 0 0
+3 2 0
+3 0 0
+1 575 xsmwuizryxh 2 3 2
+3 0 0
+3 2 0
+3 0 0
+3 0 0
+2 jqrehxtzion
+3 1 69
+3 1 386
+3 0 414
+3 0 132
+1 576 olkyyppwdet 4 3 4
+1 577 xgtdvdtuwwc 2 3 4
+3 0 196
+3 2 553
+3 2 388
+1 578 qkdzgatonmw 4 3 4
+1 579 kykyufadjod 2 3 4
+3 1 361
+1 580 cudxqixwblj 4 3 2
+3 2 0
+1 581 psxpdxcoskj 2 3 4
+2 vkpyfewgxdo
+4 ygnpkxwmrxp dfuvszfrldv 4 3 4
+3 1 497
+3 1 535
+3 0 15
+3 0 354
+1 582 crxejfkxdph 4 3 4
+3 0 110
+3 2 88
+3 0 110
+3 2 88
+3 0 110
+1 583 vnrewhvkcmr 2 3 4
+3 2 88
+3 0 110
+1 584 tymrnagwblf 2 3 4
+3 0 24
+3 1 364
+1 585 zgidudxtsvv 4 3 4
+1 586 dotmmgzzrcu 4 3 2
+3 2 0
+3 0 0
+3 0 0
+3 0 0
+3 2 0
+3 2 0
+3 0 0
+3 2 0
+1 587 wnuwygachgx 4 3 2
+3 1 24
+1 588 rynkswikgen 4 3 4
+3 2 139
+1 589 qoawmmxcrxe 4 3 4
+3 2 504
+3 1 204
+3 1 274
+3 1 204
+3 0 356
+1 590 xjudtjpcwzv 2 3 2
+3 2 383
+3 0 356
+3 1 347
+1 591 mctpkpmjrhn 4 3 2
+1 592 cfmwvtmukmr 2 3 4
+3 2 287
+3 1 392
+3 1 287
+1 593 zjsmniwlqsb 4 3 4
+1 594 txfcwakcudx 4 3 4
+3 0 347
+3 0 354
+3 1 198
+1 595 nmtqmgzaayn 2 3 2
+3 1 354
+3 1 198
+1 596 titqodachyc 2 3 4
+1 597 onmwmofajai 4 3 4
+4 wnuwraowhlt dfhdeqycuuc 2 3 2
+3 1 354
+1 598 jtdzbhdqcjq 2 3 4
+3 1 198
+3 2 388
+3 2 222
+1 599 lrhycwezceo 4 3 4
+1 600 nvynoxotoli 4 3 4
+1 601 zionrrclaqo 4 3 2
+1 602 tqymqqtnfst 2 3 2
+3 1 57
+3 2 40
+3 1 259
+4 ztghoptkyvc oskjwvhchyc 4 3 4
+3 0 25
+3 1 431
+1 603 xwudwcokypu 4 3 2
+3 1 211
+3 0 0
+3 2 597
+1 604 vkvcxumhrgv 2 3 4
+1 605 zrdxdcfukmr 4 3 4
+3 2 267
+3 2 0
+3 1 117
+1 606 xwudmjifkgx 4 3 2
+2 zrdxuizbpdf
+1 607 djodabowhzx 4 3 2
+1 608 gfbwbirupaq 2 3 4
+1 609 cwefvhhdndw 4 3 4
+3 0 257
+3 1 404
+1 610 fkvkheopubm 4 3 4
+1 611 ijcywyevlgf 4 3 4
+1 612 wblftomdotm 4 3 4
+3 2 550
+1 613 dzwvinicrxe 2 3 4
+3 0 404
+1 614 herkxumsshk 4 3 4
+3 0 0
+1 615 onmwvghmmjv 4 3 4
+3 2 550
+3 2 55
+3 0 477
+1 616 txfcojttxol 4 3 4
+1 617 bpqlheoqvcp 4 3 4
+3 0 119
+3 2 496
+4 riwoqqtsnio buhwcyrwmcf 4 3 4
+3 1 306
+3 1 496
+1 618 uwwoygaplyx 2 3 4
+1 619 bwbmnbwqqre 4 3 4
+3 0 119
+3 1 118
+3 2 289
+3 1 221
+3 2 491
+3 2 0
+3 2 0
+3 1 361
+1 620 oxcokpmbfkt 4 3 4
+3 2 0
+3 1 493
+1 621 fggbqndkzti 4 3 4
+3 2 492
+3 2 0
+3 0 285
+3 2 492
+1 622 kjlfgdhzccp 2 3 4
+3 1 317
+3 2 554
+3 1 361
+1 623 hnchwhvpubm 4 3 4
+3 1 493
+3 1 361
+3 1 493
+3 2 492
+3 0 285
+3 2 492
+3 2 0
+1 624 oskjojttjem 4 3 4
+1 625 spchwdpbuhm 2 3 4
+3 2 0
+1 626 bsuyeadislc 4 3 4
+3 2 0
+3 0 285
+1 627 uglfyhfbcxg 2 3 2
+3 0 79
+3 2 626
+3 1 359
+3 2 55
+1 628 stzxbirdjod 4 3 4
+1 629 sdyfqogmcos 4 3 2
+1 630 tqvtufaukmr 2 3 4
+3 1 221
+3 0 201
+1 631 aalfzrpkung 4 3 2
+1 632 qxlfqogzxde 4 3 4
+3 2 221
+3 1 230
+1 633 ucbqraozfjy 4 3 4
+1 634 crxewbwxwud 4 3 4
+3 0 573
+3 0 579
+3 0 11
+2 dzqsdajoxgx
+4 herkodarqdl nvynbgwqcjq 4 3 4
+3 0 25
+1 635 dxvcoetijuc 2 3 2
+1 636 xsdexumnveg 2 3 4
+1 637 dyygkakhnmw 4 3 2
+3 2 259
+1 638 whltgycxgxf 4 3 4
+3 0 25
+3 0 203
+3 2 124
+1 639 jwhrsojotje 4 3 4
+3 1 381
+1 640 vnudpmmvquf 2 3 4
+1 641 cuvkfewdlug 2 3 4
+3 0 0
+1 642 kyvckxwzceo 4 3 4
+3 2 315
+3 0 381
+1 643 vlxftankxtq 2 3 4
+3 0 0
+1 644 crmrswzswtf 2 3 4
+3 0 0
+3 2 315
+1 645 haqlgycmctp 2 3 4
+1 646 qxhawcoipps 2 3 4
+3 0 381
+3 0 0
+3 0 0
+3 1 124
+1 647 bwbmsojwnuw 4 3 4
+1 648 ylkeigpcfvl 4 3 2
+3 0 203
+3 1 433
+1 649 zionqqtuwdz 4 3 2
+3 0 460
+3 0 267
+1 650 ajaioxopnqq 4 3 2
+1 651 mrbmdajgqti 2 3 2
+3 2 0
+3 1 117
+1 652 xqzvveqqxlf 4 3 4
+3 2 366
+3 2 412
+3 1 64
+3 0 14
+3 0 501
+3 1 245
+3 2 481
+3 2 628
+3 2 607
+3 0 579
+1 653 gxqleadxdud 2 3 2
+3 0 11
+1 654 bpqlmofqiay 4 3 4
+3 2 336
+3 2 346
+3 0 410
+1 655 udxpzrsiwcd 2 3 4
+1 656 olkyjfkbpql 4 3 4
+1 657 cudxyobzfvn 4 3 2
+3 1 165
+1 658 zluyvhhzjsm 2 3 4
+3 2 81
+3 2 548
+1 659 yexpusgsham 4 3 4
+2 nvegvghwnti
+1 660 hfeovtmylke 2 3 4
+1 661 zrdxkakarui 4 3 4
+3 1 43
+3 1 499
+3 2 504
+3 1 204
+1 662 kcmrgatemgi 4 3 4
+1 663 ylkeyobngka 4 3 4
+3 0 356
+3 1 347
+3 1 356
+3 2 383
+1 664 dfuvgycdyyg 4 3 4
+3 0 356
+3 2 383
+1 665 mrvktannvzk 2 3 2
+3 2 0
+1 666 titpmjighdz 2 3 2
+3 1 354
+1 667 udkysojxafn 2 3 4
+1 668 dotmswzljbn 4 3 4
+1 669 xhsmbhdfqzn 4 3 4
+1 670 ippseadoheu 4 3 4
+3 0 625
+1 671 aybnmgzoskj 2 3 4
+3 1 168
+3 1 159
+3 1 168
+3 1 159
+1 672 wnuwumwlnwx 4 3 4
+3 0 379
+3 2 0
+1 673 mdxsqogqvcp 4 3 4
+3 0 389
+1 674 iidougvnrjf 4 3 4
+3 1 385
+3 0 343
+1 675 mdxsudsxhre 4 3 2
+3 1 33
+3 2 290
+1 676 crxeebupuco 4 3 2
+1 677 ychatjpcplg 2 3 4
+1 678 zrdxalihkud 4 3 4
+3 2 135
+3 0 480
+3 0 390
+1 679 tfvtkxwzlqm 4 3 2
+1 680 hvdowbwdmoz 2 3 4
+3 1 426
+3 0 335
+1 681 vndoeqyoxpc 4 3 4
+3 0 23
+1 682 ujchwhnipxs 2 3 4
+3 1 221
+3 2 491
+3 0 311
+1 683 qqreudxahbc 4 3 4
+1 684 buhmeinnjkm 4 3 4
+1 685 cudxcicbyza 4 3 4
+1 686 pubmjlzejve 4 3 4
+3 1 57
+1 687 nmbqwyeolxn 2 3 4
+1 688 djodmmxfkuc 4 3 2
+3 1 311
+1 689 hcwvaliajai 4 3 4
+1 690 chycumwcwef 4 3 4
+3 0 528
+1 691 cjnaevdejry 4 3 2
+3 1 509
+1 692 ippsnbwqext 4 3 4
+3 1 483
+3 0 447
+3 0 582
+3 0 613
+3 1 285
+1 693 lfqlfccdjod 2 3 4
+1 694 nvynkvwzvvl 4 3 4
+1 695 onmwxumqnvj 4 3 4
+3 0 79
+1 696 zceoifxvczc 4 3 4
+1 697 wnuwbliztxp 4 3 2
+3 1 341
+1 698 tfvtymwpubm 4 3 4
+1 699 dxdxmjioskj 2 3 4
+3 0 389
+1 700 qxlfgycucxw 4 3 2
+3 1 385
+3 2 130
+3 0 194
+1 701 ukmrkxwcimp 4 3 4
+3 0 79
+1 702 dyygfccnsxj 4 3 4
+3 2 626
+3 2 0
+3 0 79
+3 0 196
+1 703 oskjudxaalf 4 3 4
+3 2 553
+1 704 cwefoptchyc 4 3 4
+1 705 bpqludxbdlh 4 3 4
+1 706 wvdzqixgrcg 2 3 4
+1 707 qxbncyrjfgo 4 3 4
+3 1 259
+3 0 25
+3 0 203
+1 708 bmpyheopcdz 4 3 4
+3 0 0
+1 709 mwqlnagljbn 2 3 4
+1 710 xdpheadzxtq 4 3 2
+4 rkefebuonmw djodvdtgkcf 4 3 2
+3 1 433
+1 711 qvcpwakfakt 4 3 4
+1 712 mdxsvhhxqzv 4 3 4
+3 0 460
+4 jwhrbirvcwf jtbmxumasul 4 3 4
+3 2 433
+3 2 249
+3 2 0
+3 1 641
+3 1 497
+1 713 zgiduyvkxtq 4 3 4
+3 2 0
+3 2 0
+3 2 0

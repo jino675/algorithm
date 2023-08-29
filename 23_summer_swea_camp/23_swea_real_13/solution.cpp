@@ -555,23 +555,146 @@ Order 42. moveDir(0) 실행 후, 단어 미로의 상태는 [Fig. 3] 과 같다.
 
 8. 각 테스트 케이스에서 changeWord() 함수의 호출 횟수는 최대 3,000 이다.
 */
+#include <unordered_map>
+#include <map>
+
+using namespace std;
+
+typedef struct s_room
+{
+	long long	total_hash;
+	int			front_hash[2];
+	int			front;
+	int			mid_hash;
+	int			back_hash[2];
+	int			back;
+
+}	t_room;
+
+t_room	room[30001];
+
+int		cur_mID;
+
+unordered_map<long long, int> total_table;
+unordered_map<int, map<long long, int>> front_table;
+unordered_map<int, map<long long, int>> mid_table;
+unordered_map<int, map<long long, int>> back_table;
+
+long long	total_hash(char *str)
+{
+	long long	res = 0, p_i = 1;
+
+	for (int i = 10; i >= 0; --i) {
+		res += (str[i] - 'a' + 1) * p_i;
+		p_i *= 27;
+	}
+	return (res);
+}
+
+int	partial_hash(char *str, int len)
+{
+	int	res = 0, p_i = 1;
+
+	for (int i = len - 1; i >= 0; --i) {
+		res += (str[i] - 'a' + 1) * p_i;
+		p_i *= 27;
+	}
+	return (res);
+}
+
 void init()
 {
+	total_table.clear();
+	front_table.clear();
+	mid_table.clear();
+	back_table.clear();
 }
 
 void addRoom(int mID, char mWord[], int mDirLen[])
 {
+	room[mID].total_hash = total_hash(mWord);
+	room[mID].front_hash[0] = partial_hash(mWord, 2);
+	room[mID].front_hash[1] = partial_hash(mWord, 4);
+	room[mID].front = mDirLen[0];
+	room[mID].mid_hash = partial_hash(&mWord[4], mDirLen[1]);
+	room[mID].back_hash[0] = partial_hash(&mWord[11 - 2], 2);
+	room[mID].back_hash[1] = partial_hash(&mWord[11 - 4], 4);
+	room[mID].back = mDirLen[2];
+	
+	// printf("(%d)%s, total : %lld, front[0] : %d, front[1] : %d, mid : %d, back[0] : %d, back[1] : %d\n",
+	// 	mID, mWord, room[mID].total_hash, room[mID].front_hash[0], room[mID].front_hash[1], 
+	// 	room[mID].mid_hash, room[mID].back_hash[0], room[mID].back_hash[1]);
+
+	total_table[room[mID].total_hash] = mID;
+	front_table[room[mID].front_hash[0]].insert({room[mID].total_hash, mID});
+	front_table[room[mID].front_hash[1]].insert({room[mID].total_hash, mID});
+	mid_table[room[mID].mid_hash].insert({room[mID].total_hash, mID});
+	back_table[room[mID].back_hash[0]].insert({room[mID].total_hash, mID});
+	back_table[room[mID].back_hash[1]].insert({room[mID].total_hash, mID});
 }
 
 void setCurrent(char mWord[])
 {
+	cur_mID = total_table[total_hash(mWord)];
 }
 
 int moveDir(int mDir)
 {
-	return 0;
+	int	hash_idx;
+
+	if (mDir == 0) {
+		hash_idx = room[cur_mID].front == 4;
+		auto	iter = back_table[room[cur_mID].front_hash[hash_idx]].begin();
+		if (iter != back_table[room[cur_mID].front_hash[hash_idx]].end() && (*iter).second == cur_mID)
+			++iter;
+		if (iter == back_table[room[cur_mID].front_hash[hash_idx]].end())
+			return (0);
+		cur_mID = (*iter).second;
+	}
+	else if (mDir == 1) {
+		auto	iter = mid_table[room[cur_mID].mid_hash].begin();
+		if (iter != mid_table[room[cur_mID].mid_hash].end() && (*iter).second == cur_mID)
+			++iter;
+		if (iter == mid_table[room[cur_mID].mid_hash].end())
+			return (0);
+		cur_mID = (*iter).second;
+	}
+	else {
+		hash_idx = room[cur_mID].back == 4;
+		auto	iter = front_table[room[cur_mID].back_hash[hash_idx]].begin();
+		if (iter != front_table[room[cur_mID].back_hash[hash_idx]].end() && (*iter).second == cur_mID)
+			++iter;
+		if (iter == front_table[room[cur_mID].back_hash[hash_idx]].end())
+			return (0);
+		cur_mID = (*iter).second;
+	}
+	return (cur_mID);
 }
 
 void changeWord(char mWord[], char mChgWord[], int mChgLen[])
 {
+	int	mID = total_table[total_hash(mWord)];
+
+	total_table.erase(room[mID].total_hash);
+	front_table[room[mID].front_hash[0]].erase(room[mID].total_hash);
+	front_table[room[mID].front_hash[1]].erase(room[mID].total_hash);
+	mid_table[room[mID].mid_hash].erase(room[mID].total_hash);
+	back_table[room[mID].back_hash[0]].erase(room[mID].total_hash);
+	back_table[room[mID].back_hash[1]].erase(room[mID].total_hash);
+
+	room[mID].total_hash = total_hash(mChgWord);
+	room[mID].front_hash[0] = partial_hash(mChgWord, 2);
+	room[mID].front_hash[1] = partial_hash(mChgWord, 4);
+	room[mID].front = mChgLen[0];
+	room[mID].mid_hash = partial_hash(&mChgWord[4], mChgLen[1]);
+	room[mID].back_hash[0] = partial_hash(&mChgWord[11 - 2], 2);
+	room[mID].back_hash[1] = partial_hash(&mChgWord[11 - 4], 4);
+	room[mID].back = mChgLen[2];
+
+	total_table[room[mID].total_hash] = mID;
+	front_table[room[mID].front_hash[0]].insert({room[mID].total_hash, mID});
+	front_table[room[mID].front_hash[1]].insert({room[mID].total_hash, mID});
+	mid_table[room[mID].mid_hash].insert({room[mID].total_hash, mID});
+	back_table[room[mID].back_hash[0]].insert({room[mID].total_hash, mID});
+	back_table[room[mID].back_hash[1]].insert({room[mID].total_hash, mID});
 }

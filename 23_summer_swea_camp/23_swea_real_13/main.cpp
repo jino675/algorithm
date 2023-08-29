@@ -21,6 +21,8 @@ extern void changeWord(char mWord[], char mChgWord[], int mChgLen[]);
 
 #define MAX_LENGTH	(11 + 1)
 
+int	cnt;
+
 static bool run()
 {
 	int cmd, ans, ret, mid;
@@ -30,10 +32,12 @@ static bool run()
 
 	int Q = 0;
 	bool okay = false;
-
+	cnt = 0;
 	scanf("%d", &Q);
 	for (int q = 0; q < Q; ++q)
 	{
+		// printf("#%d\n", cnt + 3);
+		// ++cnt;
 		scanf("%d", &cmd);
 		switch (cmd)
 		{
@@ -56,6 +60,8 @@ static bool run()
 			scanf("%d %d", &dir[0], &ans);
 			ret = moveDir(dir[0]);
 			if (ret != ans) {
+				printf("ans : %d, ret : %d\n", ans, ret);
+				while(true){}
 				okay = false;
 			}
 			break;
