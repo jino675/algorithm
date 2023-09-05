@@ -1,7 +1,9 @@
-#include <unistd.h>
 #include <iostream>
 #include <climits>
 #include <unordered_set>
+#include <vector>
+#include <functional>
+#include <algorithm>
 
 using namespace std;
 
@@ -86,7 +88,7 @@ int					N;
 int					K;
 int					A[10];
 t_heap<int>			my_heap;
-t_heap<int>			sub_heap;
+vector<int>			sub_vector;
 int					min_cnt;
 
 unordered_set<int>	visited;
@@ -108,18 +110,18 @@ void	make_my_heap(int cur_lev, long long cur_val)
 	}
 }
 
-void	make_sub_heap(int cur_lev, long long cur_val, int ref_val)
+void	make_sub_vector(int cur_lev, long long cur_val, int ref_val)
 {
 	long long	mul;
 
 	if (cur_lev == N) {
-		sub_heap.push(cur_val);
+		sub_vector.push_back(cur_val);
 		visited.insert(cur_val);
 		return ;
 	}
 	mul = cur_val;
 	while (true) {
-		make_sub_heap(cur_lev + 1, mul, ref_val);
+		make_sub_vector(cur_lev + 1, mul, ref_val);
 		mul *= A[cur_lev];
 		if (ref_val % mul != 0)
 			return ;
@@ -130,9 +132,10 @@ int		is_sub(int leftover, int cur_divisor, int pre_divisor)
 {
 	if (cur_divisor > leftover)
 		return (0);
-	if (pre_divisor % cur_divisor != 0)
+	else if (pre_divisor % cur_divisor != 0)
 		return (0);
-	return (1);
+	else
+		return (1);
 }
 
 void	find_min(void)
@@ -147,13 +150,13 @@ void	find_min(void)
 			continue ;
 		leftover = K;
 		cur_cnt = 0;
-		sub_heap.clear();
+		sub_vector.clear();
 
-		make_sub_heap(0, 1, cur_val);
-		pre_divisor = sub_heap.top();
-		while (sub_heap.isEmpty() != true) {
-			cur_divisor = sub_heap.top();
-			sub_heap.pop();
+		make_sub_vector(0, 1, cur_val);
+		sort(sub_vector.begin(), sub_vector.end(), greater<int>());
+		pre_divisor = sub_vector.front();
+		for (auto iter = sub_vector.begin(); iter != sub_vector.end(); ++iter) {
+			cur_divisor = *iter;
 			if (is_sub(leftover, cur_divisor, pre_divisor) == 1) {
 				pre_divisor = cur_divisor;
 				while (cur_divisor <= leftover) {
